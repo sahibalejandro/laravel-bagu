@@ -1,0 +1,36 @@
+body {
+    margin-top: 40px;
+}
+
+.log-details {
+    border-bottom: 1px solid #eee;
+    .columns {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.log-level {
+    flex: 0;
+}
+
+.log-message {
+    flex: 4;
+    font-size: 0.8em;
+}
+
+.log-buttons {
+    flex: 0;
+}
+
+.log-tab {
+    height: 250px;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.log-trace, .log-context, .log-input {
+    overflow: auto;
+    height: 100%;
+    padding: 1em;
+}
